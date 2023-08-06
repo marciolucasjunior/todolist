@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52_CTkxEBy4pKR_OXUkUL3SpMGxJ2tBv5og&usqp=CAU");
+
+
+}
+
+.container{
+   
+    width: 600px;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+main{
+    margin: 30px;
+ 
+}
+
+
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+input{
+    height: 35px;
+    margin-top: 5px;
+    font-size: 15px;
+    padding-left: 15px;
+ 
+}
+
+.container_btn_mais{
+    display: flex;
+    align-items: center;
+}
+
+.btn_mais{
+    border: 2px solid black;
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    cursor: pointer;
+    background: white;
+    text-align: center;
+  
+}
+
+.div_h2{
+    display: flex;
+}
+
+#buscar{
+    width: 160px;
+}
+
+.container_btn{
+    display: flex;
+   
+}
+
+select{
+    height: 35px;
+    width: 160px;
+    padding-left:15px ;
+    font-size: 15px;
+}
+
+.tarefas{
+    display: flex;
+    color: white;
+    border: 1px solid red;
+    margin-top: 15px;
+    align-items: center;
+    height: 70px;
+    background-color: darkslategrey;
+}
+
+.btn_3{
+    margin: auto;
+    margin-right: 0px;
+    margin-right: 10px;
+}
+
+.titulo_tarefa{
+    margin-left: 10px;
+}
+
+img{
+    width: 20px;
+ 
+}
